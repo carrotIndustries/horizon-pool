@@ -1,0 +1,69 @@
+{
+    "MPN": [
+        false,
+        "M3 Mounting Hole"
+    ],
+    "datasheet": [
+        false,
+        "None"
+    ],
+    "description": [
+        false,
+        "M3 Mounting Hole with vias"
+    ],
+    "entity": "ad6ada2c-40df-46f8-a90e-ebaa3841c886",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Generic"
+    ],
+    "model": "00000000-0000-0000-0000-000000000000",
+    "package": "082d63dc-4b14-4474-a333-725a5b494457",
+    "pad_map": {
+        "0593f173-d775-4bbd-a485-9c5915eeae2a": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "0cc56f7e-dfa5-43b8-ae04-9dc100260f21": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "1442537b-f6fb-4d6f-80be-ce0999a5db3a": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "34978eec-8385-4f78-80b6-7dd1a5e81871": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "5b513762-cfca-4b90-886a-c888953c6a77": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "5e85f902-b795-479b-b5e5-9260e1cb16c6": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "6aea7da9-ee0a-4dd0-a21a-840657ec96b9": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "91edc2b5-6c55-4661-8122-c67cd3466dd1": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        },
+        "ffa7291b-dade-4576-bb82-74576d2843d7": {
+            "gate": "537b93b0-b944-4554-8a54-0f3b9f8267ce",
+            "pin": "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30"
+        }
+    },
+    "parametric": {},
+    "tags": [],
+    "type": "part",
+    "uuid": "80810719-2951-485d-9517-28a07676a835",
+    "value": [
+        false,
+        ""
+    ]
+}
