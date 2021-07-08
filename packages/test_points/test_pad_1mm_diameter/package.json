@@ -1,0 +1,164 @@
+{
+    "arcs": {
+        "9aa294c7-e612-496f-8dc2-d3aef4569608": {
+            "center": "f3642ad6-83bd-403f-8896-189764cc1ba3",
+            "from": "7f8f2837-2a97-4447-b6a0-1c891b5bb489",
+            "layer": 20,
+            "to": "07f6aef7-d79b-447c-a448-8539ecbd3cd5",
+            "width": 150000
+        },
+        "ba40e1c8-20b9-4d2f-b5fb-bd64f4639e96": {
+            "center": "f3642ad6-83bd-403f-8896-189764cc1ba3",
+            "from": "07f6aef7-d79b-447c-a448-8539ecbd3cd5",
+            "layer": 20,
+            "to": "7f8f2837-2a97-4447-b6a0-1c891b5bb489",
+            "width": 150000
+        }
+    },
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "junctions": {
+        "07f6aef7-d79b-447c-a448-8539ecbd3cd5": {
+            "position": [
+                0,
+                -775000
+            ]
+        },
+        "7f8f2837-2a97-4447-b6a0-1c891b5bb489": {
+            "position": [
+                0,
+                775000
+            ]
+        },
+        "f3642ad6-83bd-403f-8896-189764cc1ba3": {
+            "position": [
+                0,
+                0
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "",
+    "models": {},
+    "name": "Circular test pad, 1 mm diameter",
+    "pads": {
+        "87ea60fb-a166-46bd-98c5-c046380ffaa8": {
+            "name": "1",
+            "padstack": "f319994c-f37b-4fc5-bff8-b8295416c649",
+            "parameter_set": {
+                "pad_diameter": 1000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "1.000mm\nget-parameter [ courtyard_expansion ]\n2 * +\nset-polygon [ courtyard circle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 500000
+    },
+    "polygons": {
+        "90e809f3-2907-430a-ae74-cfaf167d95fa": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1000000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1000000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1000000,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
+    "tags": [
+        "generic",
+        "testing"
+    ],
+    "texts": {
+        "37686af3-515a-421e-8707-abb30d744fde": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    975000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        },
+        "5c2e8248-e63e-4f7c-a43e-e297d5b1cfce": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    975000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
+        }
+    },
+    "type": "package",
+    "uuid": "2f5093aa-803e-4643-b370-7d55c5a134da"
+}
